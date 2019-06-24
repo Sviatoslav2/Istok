@@ -1,0 +1,38 @@
+.burger__img
+    display: none
+
+.burger__box
+    display: none
+
+@media screen and (max-width: 850px)
+    .menu-categories
+        display: block
+        float: right
+
+    .burger__box
+        display: block
+        margin-top: 13px
+        margin-left: 13px
+
+    .burger__box:hover
+        cursor: pointer
+        .burger__line
+            background-color: #02a388
+
+    .burger__line
+        width: 25px
+        height: 2px
+        background-color: white
+        margin: 6px 0
+
+    .burger__img
+        display: block
+        padding: 11px
+        background-image: url("https://www.istockphoto.com/landing/assets/unisporkal_engine/images/istock/istock_global-d7e401f19e6c19a9675205710664aae57336b66879fca2e2f55bdd926ea590f1.svg#account-icon-mono")
+
+    .burger__img:hover
+        cursor: pointer
+        background-image: url("https://www.istockphoto.com/landing/assets/unisporkal_engine/images/istock/istock_global-d7e401f19e6c19a9675205710664aae57336b66879fca2e2f55bdd926ea590f1.svg#account-icon")
+
+
+

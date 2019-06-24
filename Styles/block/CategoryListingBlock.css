@@ -1,0 +1,10 @@
+.category-list__elem {
+  display: flex;
+  flex-direction: column;
+  margin: auto; }
+
+.category-list__elem-link {
+  text-align: center;
+  text-decoration: none; }
+
+/*# sourceMappingURL=CategoryListingBlock.css.map */

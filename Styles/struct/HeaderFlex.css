@@ -1,0 +1,63 @@
+.header-categories-list, .header-actions-list-left, .header-actions-list-right {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 0;
+  align-items: center; }
+
+.header-categories-list-navigation {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between; }
+
+.header-categories-list {
+  justify-content: start; }
+
+.header-actions-list-left {
+  justify-content: end;
+  padding: 0; }
+
+@media screen and (max-width: 850px) {
+  .header-categories-list {
+    display: none;
+    list-style: none;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    background: #0c0d0d;
+    align-items: start;
+    padding: 5px 0 0 20px;
+    box-sizing: border-box;
+    left: 0; }
+
+  .header-actions-list-right {
+    display: none;
+    list-style: none;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    background: #0c0d0d;
+    align-items: start;
+    padding: 5px 0 0 20px;
+    box-sizing: border-box;
+    right: 0; } }
+.push-right {
+  margin-left: 300px; }
+
+.push-left {
+  margin-right: 300px;
+  /*TODO */ }
+
+.flex-display {
+  display: flex !important; }
+  .flex-display .header-categories-list > li {
+    padding: 4px 0; }
+
+/*# sourceMappingURL=HeaderFlex.css.map */

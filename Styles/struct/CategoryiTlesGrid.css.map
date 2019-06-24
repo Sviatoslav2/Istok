@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,mCAAwB;AAChC,gBAAgB;EACd,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,WAAW,EAAE,GAAG;;AAElB,qBAAqB;EACnB,eAAe,EAAE,MAAM;EACvB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,MAAM,EAAE,KAAK",
+"sources": ["CategoryiTlesGrid.sass"],
+"names": [],
+"file": "CategoryiTlesGrid.css"
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAoB;EAClB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO",
+"sources": ["PromoBanner.sass"],
+"names": [],
+"file": "PromoBanner.css"
+}

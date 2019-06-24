@@ -1,0 +1,18 @@
+.burger__img {
+  display: none; }
+
+@media screen and (max-width: 850px) {
+  .menu-categories {
+    display: block;
+    float: right; }
+
+  .burger__img {
+    display: block;
+    opacity: 1;
+    transition: 0.4s; }
+
+  .burger__img:hover {
+    cursor: pointer;
+    opacity: 0.7; } }
+
+/*# sourceMappingURL=Burger.css.map */

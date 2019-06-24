@@ -1,0 +1,27 @@
+.headline {
+  width: 100%;
+  max-width: 1146px;
+  margin: auto;
+  padding-top: 10px; }
+
+.headline__header {
+  font-size: 35px;
+  text-align: center;
+  color: #474747;
+  font-weight: normal;
+  line-height: 1.4;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  display: block; }
+
+.headline__header__small {
+  font-size: 30px;
+  text-align: center; }
+
+.headline__header {
+  font-size: 35px;
+  text-align: center; }
+
+/*# sourceMappingURL=Headline.css.map */

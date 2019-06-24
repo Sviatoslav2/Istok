@@ -1,0 +1,84 @@
+@import "../Colors"
+%header-flex
+  display: flex
+  flex-direction: row
+  height: 100%
+  margin: 0
+  align-items: center
+
+.header-categories-list-navigation
+  display: flex
+  height: 100%
+  width: 100%
+  justify-content: space-between
+
+.header-categories-list
+  @extend %header-flex
+  justify-content: start
+
+.header-actions-list-left
+  @extend %header-flex
+  justify-content: end
+  padding: 0
+
+.header-actions-list-right
+  @extend %header-flex
+
+.close-panel
+  display: none
+
+
+
+@media screen and (max-width: 850px)
+  .header-categories-list
+    display: none
+    list-style: none
+    flex-direction: column
+    height: 100%
+    margin: 0
+    width: 300px
+    position: absolute
+    top: 0
+    background: $header-color
+    align-items: start
+    padding: 5px 0 0 20px
+    box-sizing: border-box
+    left: 0
+
+  .header-actions-list-right
+    display: none
+    list-style: none
+    flex-direction: column
+    height: 100%
+    margin: 0
+    width: 300px
+    position: absolute
+    top: 0
+    background: $header-color
+    align-items: start
+    padding: 5px 0 0 20px
+    box-sizing: border-box
+    right: 0
+  .header-element
+    padding: 10px
+
+.push-right
+    padding-left: 300px
+    transition: all 0.5s
+
+.push-left
+    padding-right: 300px
+    transition: all 0.5s
+
+@media screen and (min-width: 850px)
+  .push-right
+    padding-left: 0
+
+  .push-left
+    padding-right: 0
+
+.flex-display
+  display: flex !important
+
+  .header-categories-list > li
+    padding: 4px 0

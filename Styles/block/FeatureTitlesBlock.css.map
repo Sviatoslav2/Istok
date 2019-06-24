@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,qBAAqB;EACnB,gBAAgB,ECDF,OAAO;EDErB,OAAO,EAAE,KAAK",
+"sources": ["FeatureTitlesBlock.sass","../Colors.sass"],
+"names": [],
+"file": "FeatureTitlesBlock.css"
+}

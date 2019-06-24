@@ -1,0 +1,14 @@
+.icon-new__img {
+  position: relative;
+  top: 2px;
+  transition: background-image 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  height: 14px;
+  width: 14px;
+  background-image: url("../Images/istock/boards/icon_boards-new.svg"); }
+
+.header-element__link_action:hover > .icon-new__img {
+  background-image: url("../Images/istock/boards/icon_boards_teal-56ba89d4e9a3a695d91bd10b97a5660d286686a7bc1571f67054b6577a82602e.svg");
+  height: 14px;
+  width: 14px; }
+
+/*# sourceMappingURL=IconNewBoards.css.map */

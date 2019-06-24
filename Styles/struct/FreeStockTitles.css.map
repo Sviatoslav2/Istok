@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAkB;EAChB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;EACtC,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG",
+"sources": ["FreeStockTitles.sass"],
+"names": [],
+"file": "FreeStockTitles.css"
+}

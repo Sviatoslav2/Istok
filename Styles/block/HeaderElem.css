@@ -1,0 +1,31 @@
+.full_header {
+  background-color: #0c0d0d;
+  display: block;
+  height: 65px;
+  width: 100%;
+  overflow: hidden; }
+
+.divider-light {
+  border-right: 1px solid #666e6e;
+  height: 24px;
+  padding: 0px; }
+
+.header-element__link, .header-element .header-element__link:hover, .header-element__link_action {
+  text-decoration: none;
+  text-align: center;
+  margin: 15px;
+  margin-top: 24px; }
+
+.header-element__link {
+  color: #b4b9b9; }
+
+.header-element .header-element__link:hover {
+  color: #02a388; }
+
+.header-element__link_action {
+  color: #F5F8FA; }
+
+.header-element__link_action:hover {
+  color: #02a388; }
+
+/*# sourceMappingURL=HeaderElem.css.map */
